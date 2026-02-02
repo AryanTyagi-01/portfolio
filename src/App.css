@@ -289,6 +289,10 @@ height: 70%;
   box-shadow: 0 35px 60px rgba(0,0,0,0.3);
    background: linear-gradient(135deg, #fde68a,  #fbbf24) ;
 }
+.edu-card:hover.edu-card p{
+  /* border: 2px brown solid; */
+  color: #fef3c7;
+}
 
 /* ICON */
 .edu-icon {
@@ -302,7 +306,17 @@ height: 70%;
   font-size: 22px;
   font-weight: 700;
   color: #92400e;
+  text-decoration:none ;
+  /* color: inherit; */
 }
+.edu-link {
+  text-decoration: none;
+  /* color: #8b4513; apna theme color */
+  font-weight: 600;
+}
+
+
+
 
 .edu-card p {
   font-size: 15px;

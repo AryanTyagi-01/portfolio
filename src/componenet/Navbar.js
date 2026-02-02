@@ -27,7 +27,7 @@ function Navbar() {
 
       {/* NAV LINKS */}
       <div className={`nav-links ${open ? "active" : ""}`}>
-        <Link to="/aboutMe" onClick={() => setOpen(false)}>
+        <Link to="/" onClick={() => setOpen(false)}>
           <FaUser className="ca"/> About Me
         </Link>
 
@@ -35,8 +35,8 @@ function Navbar() {
           <FaCode className="ca"/> Skills
         </Link>
 
-        <Link to="/eduaction" onClick={() => setOpen(false)}>
-          <FaGraduationCap className="ca"/> Education
+        <Link to="/education" onClick={() => setOpen(false)}>
+          <FaGraduationCap className="ca"/>Education
         </Link>
 
         <Link to="/projects" onClick={() => setOpen(false)}>
