@@ -1,4 +1,4 @@
-import { Routes, Route, BrowserRouter as Router, Navigate, useNavigate } from "react-router-dom";
+import { Routes, Route, HashRouter as Router, Navigate, useNavigate } from "react-router-dom";
 // import { Navigate } from "react-router-dom";
 import Navbar from "./componenet/Navbar";
 
@@ -25,7 +25,6 @@ function App() {
   return (
     <>
        <Router>
-  <RedirectToHomeOnRefresh />
         <Navbar />
         <Routes>
           <Route path="/" element={<AboutMe />} />
